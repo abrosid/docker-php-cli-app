@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/console": "^4.2",
+        "dibi/dibi": "^4.0",
+        "symfony/event-dispatcher": "^4.2"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Blog\\": "src/" 
+        }         
+    }
+}
